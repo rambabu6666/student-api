@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from database import SessionLocal, engine
 import models
 import schemas
-
+# changed in local servr
 # create tables
 models.Base.metadata.create_all(bind=engine)
 
